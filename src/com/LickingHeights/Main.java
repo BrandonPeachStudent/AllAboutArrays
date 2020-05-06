@@ -36,7 +36,15 @@ public class Main {
         String[] verbs = {"running", "playing", "eating", "walking"};
         String[] times = {"midnight", "dawn", "dusk", "evening" };
         String[] things = {"laptop", "pencil", "finger", "whiteboard"};
-        sentenceGenerator(adjectives, places, people, verbs, times, things);
+        //sentenceGenerator(adjectives, places, people, verbs, times, things);
+
+        System.out.println(" ");
+
+        String[] partsOfAName1 = {"Julius", "Antetokumpo", "Tiberius", "Rick"};
+        String[] partsOfAName2 = {"Mildew", "Sean", "Lester", "Jeff"};
+        String[] partsOfAName3 = {"Jude", "Annie", "Michael", "Jackson"};
+
+        print80sRapperName(partsOfAName1, partsOfAName2, partsOfAName3);
 
 
 
@@ -188,6 +196,10 @@ public class Main {
         Random random = new Random();
         return array[random.nextInt(array.length)];
 
+    }
+
+    public static void print80sRapperName(String[] partsOfAName1, String[] partsOfAName2, String[] partsOfAName3){
+        System.out.print(randomWord(partsOfAName1)+  randomWord(partsOfAName2)+ randomWord(partsOfAName3));
     }
 
 }
