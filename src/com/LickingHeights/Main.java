@@ -12,21 +12,28 @@ public class Main {
         int[] array = createNumberArray(size, lowestNumber, highestNumber);
 
 
-       Pattern1();
-       Pattern2();
-       Pattern3();
-       Pattern4();
-       Pattern5();
-       System.out.println("The sum of the array is " + sum(array));
-       System.out.println("The minimum of the array is " + minimum(array));
-       System.out.println("The maximum of the array is " + maximum(array));
+       //Pattern1();
+       //Pattern2();
+       //Pattern3();
+       //Pattern4();
+       //Pattern5();
+       //System.out.println("The sum of the array is " + sum(array));
+       //System.out.println("The minimum of the array is " + minimum(array));
+       //System.out.println("The maximum of the array is " + maximum(array));
 
-        System.out.println("");
-        printArray(array);
-        System.out.println("");
-        System.out.println("After bubble sort");
-        System.out.println("");
-        printArray(bubbleSort(array));
+        //System.out.println("");
+        //printArray(array);
+        //System.out.println("");
+        //System.out.println("After bubble sort");
+        //System.out.println("");
+        //printArray(bubbleSort(array));
+
+        String[] adjectives = {"terrified", "joyous", "timid", "afraid"};
+        String[] places = {"Pataskala", "New York", "Los Angeles", "London"};
+        String[] people = {"Abraham Lincoln", "Denzel Washington", "Lebron James", "Alex Caruso"};
+        String[] verbs = {"running", "playing", "eating", "walking"};
+        String[] times = {"midnight", "dawn", "dusk", "evening" };
+        String[] things = {"laptop", "pencil", "finger", "whiteboard"};
 
 
 
